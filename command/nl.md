@@ -64,6 +64,8 @@ FILE（可选）：要处理的文件，可以为一或多个。
 返回0表示成功，返回非0值表示失败。
 
 ## 例子
+nl  Test 在终端打印 Test 文件,空行不编号
+nl -ba  Test 在终端打印 Test 文件,空行编号
 
 ```shell
 nl_logicalpage.txt：该文件用于说明nl命令处理逻辑页，内容如下：
